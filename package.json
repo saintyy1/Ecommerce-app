@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/saintyy1/Ecommerce-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "server": "json-server --watch src/testimonials.json --port 5000"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@paystack/inline-js": "^2.22.1",
