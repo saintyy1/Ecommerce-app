@@ -11,7 +11,6 @@ const AccountPage = () => {
   const navigate = useNavigate()
   const { tab } = useParams() // Get the tab from the URL
 
-  // Default to 'profile' if no tab is provided
   const activeTab = tab || "profile"
 
   const handleLogout = async () => {
